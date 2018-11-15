@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- doctype -->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe600"
+        android:gravity="center"
+        android:text="계 산 기"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="숫자 입력"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30dp"
+        android:background="#00ff08"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/subtractBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="30dp"
+        android:background="#00ff08"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/multiplyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="30dp"
+        android:background="#00ff08"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/divideBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:background="#00ff08"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/equalsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:background="#57c4f7"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textSize="30dp"
+        android:background="#d18cf4"
+        android:layout_marginTop="50dp"
+        />
+</LinearLayout>
